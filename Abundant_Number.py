@@ -15,3 +15,5 @@ if total > no:
     
 else:
     print("Number is not an Abundant number")
+
+
