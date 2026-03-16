@@ -13,7 +13,6 @@ total = sum(divisors)
 
 if total > no:
     print("Number is an Abundant number")
-    
 else:
     print("Number is not an Abundant number")
 
