@@ -9,12 +9,10 @@ class TreeNode:
         self.val = val
         self.left = left
         self.right = right
-
-
+        
 # Input
 values = input("Enter the values: ").split()
 values = [None if x == "null" else int(x) for x in values]
-
 
 # Build tree
 if not values or values[0] is None:
