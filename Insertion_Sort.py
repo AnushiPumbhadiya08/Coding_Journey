@@ -10,5 +10,4 @@ for i in range(1,len(nums)):
         nums[a - 1], nums[a] = nums[a], nums[a - 1]
         
         a -= 1
-        
 print(nums)
